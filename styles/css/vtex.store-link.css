@@ -1,0 +1,14 @@
+.link--stackLink {
+    margin-left: 60px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1DB8FB;
+    border-radius: 5px;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+}

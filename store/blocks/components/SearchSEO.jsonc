@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#SEOBlock": {
+      "children": ["image#SEObanner", "flex-layout.col#SEOContent"],
+      "props": {
+        "blockClass": "seoBlock",
+        "preventHorizontalStretch": true
+      }
+    },
+    "image#SEObanner": {
+      "props": {
+        "src": "assets/Thumbnail.png",
+        "blockClass": "SEOBanner"
+      }
+    },
+    "flex-layout.col#SEOContent": {
+      "children": ["rich-text#SearchSEOTitle", "rich-text#SearchSEOText"],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "SeoColumn"
+      }
+    },
+    "rich-text#SearchSEOTitle": {
+      "props": {
+        "text": "### Como escolher o videogame ideal para você? <br/> Descubra dicas infalíveis!",
+        "blockClass": "SearchSEOTitle"
+      }
+    },
+    "rich-text#SearchSEOText": {
+      "props": {
+        "text": "Nibh diam dictumst vulputate rhoncus. Nisl, condimentum a, vel vulputate sapien parturient pulvinar sagittis. Nibh vitae ut pretium, mauris. Potenti venenatis habitant nulla quam ante maecenas sagittis. Erat fermentum sagittis enim sed tortor nam. <br/><br/> Purus sed est fermentum ipsum egestas proin. Egestas risus egestas sed a purus pulvinar. Magna tempus, sit orci ornare ridiculus aenean. Sagittis, eu tellus hendrerit velit facilisi elit proin blandit. Quisque eget massa, neque, id. Ac id sed faucibus adipiscing viverra egestas etiam est tempor. Id dictum viverra ut diam ipsum, eget. Ut consectetur turpis gravida et magna diam feugiat enim pretium. Sit tristique tempus bibendum id vehicula sed parturient amet. Blandit at id aliquet quis. Neque, magna enim elit pulvinar sodales auctor habitant turpis. Diam consequat, volutpat proin id sed blandit pellentesque. In malesuada id nunc habitant ullamcorper integer quam.",
+        "blockClass": "SearchSEOText"
+      }
+    }
+  }
+  

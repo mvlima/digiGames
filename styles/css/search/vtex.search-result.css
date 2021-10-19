@@ -1,0 +1,37 @@
+.galleryTitle--layout {
+    color: #ffffff;
+}
+
+.filter__container--title {
+    color: #ffffff;
+    border: none;
+}
+
+.filter__container {
+    color: #ffffff;
+    border: none;
+}
+
+.filterTitle {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 800;
+}
+
+.orderByButton {
+    border-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.filterPopupTitle {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.orderByText {
+    color: #ffffff;
+}

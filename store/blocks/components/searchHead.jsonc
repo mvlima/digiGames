@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#searchHeadRow": {
+      "children": [
+        "flex-layout.col#searchHeadCol-1",
+        "flex-layout.col#searchHeadCol-2"
+      ],
+      "props": {
+        "blockClass": "searchHeadRow"
+      }
+    },
+    "flex-layout.col#searchHeadCol-1": {
+      "children": [
+        "breadcrumb.search",
+        "search-title.v2",
+        "rich-text#searchHeadSeo"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "searchHeadCol",
+        "width": "35%"
+      }
+    },
+    "flex-layout.col#searchHeadCol-2": {
+      "children": ["image#searchBanner"],
+      "props": {
+        "blockClass": "searchHeadCol",
+        "width": "65%"
+      }
+    },
+    "breadcrumb.search": {
+      "props": {
+        "showOnMobile": true,
+        "blockClass": "searchBread"
+      }
+    },
+    "rich-text#searchHeadSeo": {
+      "props": {
+        "text": "O gênero ação/aventura é, possivelmente, o maior gênero de todo o universo de videogames. Iniciado com Adventure (Atari 2600), em 1979, ele é a junção de mecânicas de dois gêneros já muito populares que resultou em uma fórmula de “fazer jogos” que se encaixa em muitas jogabilidades, histórias e estilos de narrativa diferentes.",
+        "blockClass": "searchHeadSeo"
+      }
+    },
+    "image#searchBanner": {
+      "props": {
+        "src": "assets/searchBanner.png",
+        "blockClass": "searchBanner"
+      }
+    }
+}
+  

@@ -1,0 +1,271 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#stackSlider",
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#shelf-title",
+      "flex-layout.row#shelf",
+      "flex-layout.row#platforms",
+      "flex-layout.row#infoCardHome",
+      "flex-layout.row#shelf2-title",
+      "flex-layout.row#shelf2",
+      "flex-layout.row#SEOBlock"
+    ]
+  },
+
+  "flex-layout.row#stackSlider": {
+    "children": ["slider-layout#stack"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "stackSlider"
+    }
+  },
+
+  "slider-layout#stack": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "stack-layout#bannerStack1",
+      "stack-layout#bannerStack2",
+      "stack-layout#bannerStack3"
+    ]
+  },
+
+  "stack-layout#bannerStack1": {
+    "children": ["image#banner", "flex-layout.row#content"],
+    "props": {
+      "blockClass": "bannerStack"
+    }
+  },
+  "stack-layout#bannerStack2": {
+    "children": ["image#banner", "flex-layout.row#content"],
+    "props": {
+      "blockClass": "bannerStack"
+    }
+  },
+  "stack-layout#bannerStack3": {
+    "children": ["image#banner", "flex-layout.row#content"],
+    "props": {
+      "blockClass": "bannerStack"
+    }
+  },
+  "image#banner": {
+    "props": {
+      "src": "assets/bg-banner.png"
+    }
+  },
+  "flex-layout.row#content": {
+    "children": ["flex-layout.col#content"]
+  },
+  "flex-layout.col#content": {
+    "children": ["rich-text#title", "rich-text#subtitle", "link#buy"]
+  },
+  "rich-text#title": {
+    "props": {
+      "text": "## Red Dead Redemption II",
+      "blockClass": "stackTitle"
+    }
+  },
+  "rich-text#subtitle": {
+    "props": {
+      "text": "Já disponível para **PlayStation** e **PC**",
+      "blockClass": "stackSubTitle"
+    }
+  },
+  "link#buy": {
+    "props": {
+      "href": "/",
+      "label": "Comprar",
+      "blockClass": "stackLink"
+    }
+  },
+
+  "flex-layout.row#shelf-title":{
+    "children": ["rich-text#shelf-title"],
+    "props":{
+      "horizontalAlign": "center",
+      "blockClass":"shelfTitle"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Destaques da Semana",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": false,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  },
+
+  // Busque por plataforma
+  "flex-layout.row#platforms": {
+    "children": [
+      "flex-layout.col#platforms"
+    ],
+    "props": {
+      "blockClass": "platformsRow"
+    }
+  },
+  "flex-layout.col#platforms": {
+    "children": [
+      "rich-text#platformsTitle",
+      "flex-layout.row#platformsInfoCards"  
+    ]
+  },
+  "rich-text#platformsTitle": {
+    "props": {
+      "text": "## Busque por plataforma",
+      "blockClass": "platformsTitle"
+    }
+  },
+  "flex-layout.row#platformsInfoCards": {
+    "children": [
+      "info-card#platformsPS",
+      "info-card#platformsXbox",
+      "info-card#platformsWii",
+      "info-card#platformsPC"
+    ],
+    "props": {
+      "colGap": 7,
+      "borderWidth": 0,
+      "fullWidth": true
+    }
+  },
+  "info-card#platformsPS": {
+    "props": {
+      "id": "infoCardPlatformsPS",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/platformsPS.png",
+      "callToActionUrl": "/masculino",
+      "callToActionMode": "link",
+      "callToActionText": "PlayStation",
+      "blockClass": "infoCardPlatforms"
+    }
+  },
+  "info-card#platformsXbox": {
+    "props": {
+      "id": "infoCardPlatformsXbox",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/platformsXbox.png",
+      "callToActionText": "Xbox",
+      "callToActionUrl": "/acessorios",
+      "callToActionMode": "link",
+      "blockClass": "infoCardPlatforms"
+    }
+  },
+  "info-card#platformsWii": {
+    "props": {
+      "id": "infoCardPlatformsWii",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/platformsWii.png",
+      "callToActionText": "Nintendo Wii",
+      "callToActionUrl": "/feminino",
+      "callToActionMode": "link",
+      "blockClass": "infoCardPlatforms"
+    }
+  },
+  "info-card#platformsPC": {
+    "props": {
+      "id": "infoCardPlatformsPC",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/platformsPC.png",
+      "callToActionText": "PC Windows",
+      "callToActionUrl": "/calçado",
+      "callToActionMode": "link",
+      "blockClass": "infoCardPlatforms"
+    }
+  },
+
+  "flex-layout.row#infoCardHome": {
+    "children": ["info-card#home"]
+  },
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "assets/info-card.png",
+      "headline": "Vem aí em Outubro Far Cry 6",
+      "subhead": "Para Xbox One, PS4 e PC",
+      "callToActionText": "Reservar",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-home"
+    }
+  },
+
+  "flex-layout.row#shelf2-title":{
+    "children": ["flex-layout.col#shelf2-title"],
+    "props":{
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#shelf2-title":{
+    "children": ["rich-text#shelf2-title"],
+    "props":{
+      "width":"100%"
+    }
+  },
+  "rich-text#shelf2-title": {
+    "props": {
+      "text": "## Em alta",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#demo2"]
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo2-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo2-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": false,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  }
+}

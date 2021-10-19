@@ -1,0 +1,93 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-acao",
+      "menu-item#category-aventura",
+      "menu-item#category-rpg",
+      "menu-item#category-estrategia",
+      "menu-item#category-simulacao"
+    ]
+  },
+  "menu-item#category-acao": {
+    "props": {
+      "id": "menu-item-category-acao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/masculino/",
+        "noFollow": false,
+        "tagTitle": "Ação",
+        "text": "Ação"
+      }
+    }
+  },
+
+  "menu-item#category-aventura": {
+    "props": {
+      "id": "menu-item-category-aventura",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/masculino/",
+        "noFollow": false,
+        "tagTitle": "Aventura",
+        "text": "Aventura"
+      }
+    }
+  },
+
+  "menu-item#category-rpg": {
+    "props": {
+      "id": "menu-item-category-rpg",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/infantil/",
+        "noFollow": false,
+        "tagTitle": "RPG",
+        "text": "RPG"
+      }
+    }
+  },
+
+  "menu-item#category-estrategia": {
+    "props": {
+      "id": "menu-item-category-estrategia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/we.digi/",
+        "noFollow": false,
+        "tagTitle": "Estratégia",
+        "text": "Estratégia"
+      }
+    }
+  },
+
+  "menu-item#category-simulacao": {
+    "props": {
+      "id": "menu-item-category-simulacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas/",
+        "noFollow": false,
+        "tagTitle": "Simulação",
+        "text": "Simulação"
+      }
+    }
+  }
+}

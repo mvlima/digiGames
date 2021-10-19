@@ -1,0 +1,52 @@
+.container--searchBread {
+  position: absolute;
+  top: 30px;
+  padding: 0;
+}
+  
+.homeLink--searchBread::before {
+  content: "Home";
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 800;
+  color: #fff;
+}
+  
+.homeLink--searchBread:hover::before,
+.link--searchBread:hover {
+  color: #06092b;
+}
+  
+.link--searchBread {
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+}
+  
+.arrow--searchBread .caretIcon {
+  display: none;
+}
+  
+.arrow--searchBread::before {
+  content: "-";
+  color: #fff;
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-right: 4px;
+}
+  
+.homeLink--searchBread .homeIcon {
+  display: none;
+}
+  
+@media (max-width: 1024px) {
+  .container--searchBread {
+    position: relative;
+    top: initial;
+    margin-bottom: 30px;
+  }
+}
+  

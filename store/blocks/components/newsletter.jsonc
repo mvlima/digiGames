@@ -1,0 +1,71 @@
+{
+    "newsletter-form": {
+      "children": [
+        "flex-layout.row#newsRow"
+      ],
+      "props": {
+        "SuccessState": "flex-layout.row#sucessNews"
+      }
+    },
+    "flex-layout.row#sucessNews": {
+      "children": [
+        "flex-layout.col#newsRow",
+        "rich-text#newsTextSucess"
+      ],
+      "props": {
+        "paddingBottom": 9,
+        "paddingTop": 9
+      }
+    },
+    "flex-layout.row#newsRow": {
+      "children": [
+        "flex-layout.col#newsRow",
+        "newsletter-input-name",
+        "newsletter-input-email",
+        "newsletter-submit"
+      ],
+      "props": {
+        "blockClass": "newsletterRow"
+      }
+    },
+    "newsletter-input-name": {
+      "props": {
+        "placeholderText": "Digite seu nome"
+      }
+    },
+    "newsletter-input-email": {
+      "props": {
+        "placeholderText": "Digite seu e-mail"
+      }
+    },
+    "newsletter-submit": {
+      "props": {
+        "submitButtonLabel": "Cadastrar"
+      }
+    },
+    "flex-layout.col#newsRow": {
+      "children": [
+        "rich-text#newsTitle",
+        "rich-text#newsText"
+      ]
+    },
+    "rich-text#newsTitle": {
+      "props": {
+        "text": "### Se inscreva na newsletter",
+        "blockClass": "newsTitle"
+      }
+    },
+    "rich-text#newsText": {
+      "props": {
+        "text": "Receba no seu e-mail nossas novidades e cupons de desconto.",
+        "blockClass": "newsText"
+      }
+    },
+    "rich-text#newsTextSucess": {
+      "props": {
+        "text": "## Obrigado! =)",
+        "blockClass": "newsTextSuccess"
+      }
+    }
+  }
+  

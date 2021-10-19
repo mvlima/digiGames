@@ -1,0 +1,245 @@
+.container {
+  max-width: 1800px;
+  padding: 0px 60px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+}
+
+.notificationBarContainer {
+  background-color: #1DB8FB;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: none;
+}
+
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.searchBarIcon {
+  color: #ffffff;
+}
+
+.infoCardHeadline--info-card-home {
+  color: #06092B !important;
+  font-size: 46px !important;
+  line-height: 52px !important;
+  font-weight: 900 !important;
+  
+}
+/* 
+.infoCardHeadline--info-card-home::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  background: #4839ff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+} */
+
+.infoCardSubhead--info-card-home {
+  color: #ffffff;
+  font-size: 16px !important;
+  line-height: 28px !important;
+  font-weight: 600 !important;
+}
+
+.infoCardCallActionContainer--info-card-home :global(.vtex-button) {
+  font-size: 16px;
+  line-height: 56px;
+  font-weight: 900;
+  width: 180px;
+  height: 56px;
+  text-transform: capitalize;
+}
+
+.infoCardContainer--info-card-home {
+  height: 750px;
+}
+
+.infoCardContainer--infoCardPlatforms {
+  background-color: #1DB8FB;
+  border-radius: 4px;
+  padding: 0 0 0 0;
+  overflow: hidden;
+  align-items: flex-end;
+}
+
+.infoCardImageContainer--infoCardPlatforms {
+  height: 100%;
+  width: auto;
+}
+
+.infoCardCallActionText--infoCardPlatforms {
+  font-size: 26px;
+  line-height: 34px;
+  color: #ffffff;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.infoCardCallActionContainer--infoCardPlatforms {
+  width: 60%;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.infoCardImage--infoCardPlatforms {
+  display: block;
+  height: 100%
+}
+
+.imageElement--searchBanner {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .imageElement--searchBanner {
+    height: 350px;
+  }
+}
+
+.productBrand--quickview {
+  color: #ffffff;
+  font-size: 46px;
+  line-height: 52px;
+  font-weight: 900;
+}
+
+.productDescriptionText {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.shippingContainer :global(.vtex-button) {
+  color: #ffffff;
+  background-color: #1DB8FB;
+  border-color: #1DB8FB;
+  font-size: 14px;
+  height: 45px;
+  width: 300px;
+  line-height: 45px;
+  font-weight: 900;
+  text-transform: capitalize;
+}

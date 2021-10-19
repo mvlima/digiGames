@@ -1,0 +1,97 @@
+.listPrice {
+  color: #ffffff;
+  opacity: 50%;
+  margin-bottom: .25rem;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+}
+
+.sellingPrice {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 32px;
+}
+
+.sellingPriceValue {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 32px;
+}
+
+.installments {
+  color: #ffffff;
+  opacity: 50%;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.savings {
+  font-weight: 500;
+  color: #FFBF00;
+}
+
+.sellingPriceValue--summary {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+}
+
+.savings--summary {
+  background: #FFBF00;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 800;
+  vertical-align: baseline;
+  color: #FFFFFF;
+}
+
+.savings-discount--summary {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.listPrice--summary {
+  margin-bottom: 0.25rem;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.installments--summary {
+  margin-bottom: 2rem;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.savings--summaryPercentage {
+  background: #0f3e99;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+}
+
+.savingsPercentage--summaryPercentage {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
